@@ -1,0 +1,148 @@
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #efd686;
+    color: #333;
+}
+
+.header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.left-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-title {
+    font-size: 16px;
+}
+
+
+.content {
+    margin-top: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.quiz-body {
+    background: #f3e2befc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 600px; 
+    width: 100%;
+    text-align: center; 
+}
+
+
+.option-block-container {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+}
+
+.option-block {
+    padding: 10px;
+    background: #e3f2fd;
+    border: 1px solid #64b5f6;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.option-block:hover {
+    background: #bbdefb;
+}
+
+
+.btn-custom {
+    background-color: #2196F3; 
+    border: none;
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 10px;
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom:hover {
+    background-color: #0b7dda; 
+    color: white; 
+    transform: scale(1.05); 
+}
+
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f3e2befc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result h1 {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+
+.result-content {
+    line-height: 1.6; 
+}
+
+.result-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.result-item .fa {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+.wrong {
+    color: red;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+
+.fa-remove {
+    color: red;
+}
+
+.fa-check {
+    color: green;
+}
